@@ -1,0 +1,107 @@
+/* General Body Style */
+body {
+    font-family: 'Tomorrow', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Style */
+.vebheader {
+    background-color: #b0c4de; /* Light steel blue */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.vebheader .header-round h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Navigation Menu */
+.menu {
+    background-color: #f5f5dc; /* Beige background */
+    padding: 10px 0;
+}
+
+.menu-items {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.menu-items a:hover {
+    color: #4169e1; /* Royal blue on hover */
+}
+
+/* Main Section */
+#main {
+    padding: 40px 20px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.parent2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Section Style */
+section {
+    background-color: #f5f5dc; /* Beige */
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #4169e1; /* Royal blue for section titles */
+}
+
+section p,
+section ul {
+    color: #333;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #b0c4de; /* Border matching the header */
+}
+
+/* Footer Style */
+footer {
+    background-color: #b0c4de; /* Light steel blue */
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}
